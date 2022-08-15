@@ -28,7 +28,7 @@ public class AsciiVideoPlayer
                 new Argument(true, "char", List.of("char", "c"), ""),
                 new Argument(true, "width", List.of("width", "w"), ""),
                 new Argument(false, "audio", List.of("audio", "a"), "false"),
-                new Argument(false, "fps", List.of("fps"), "60")
+                new Argument(false, "fps", List.of("f"), "60")
         });
         this.loadingSpinner = new LoadingSpinner();
         this.tempGenerator = new TempGenerator(this);
