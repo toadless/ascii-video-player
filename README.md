@@ -4,7 +4,7 @@
 Converts a video/gif file into an ascii video and
 streams the product to the console.
 
-# FFmpeg
+## FFmpeg
 Ascii Video Player requires [ffmpeg](https://ffmpeg.org)
 to create frames and audio. Please make sure that you have
 it installed and added to path on your system.
