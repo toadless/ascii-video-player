@@ -85,7 +85,7 @@ public class TempGenerator
 
     public void generateTempContents()
     {
-        final File video = new File(this.asciiVideoPlayer.getArgumentParser().getString("file"));
+        final File video = new File(this.asciiVideoPlayer.getArgumentParser().getString("input"));
 
         if (!video.exists())
         {

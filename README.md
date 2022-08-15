@@ -23,7 +23,7 @@ your arguments after the initial command.
 
 | Name  |      Description       | Alias | Required |    Type |
 |:------|:----------------------:|:-----:|:--------:|--------:|
-| file  |     The Input File     |   f   |   true   |  String |
+| input |     The Input File     |   i   |   true   |  String |
 | char  | Character Aspect Ratio |   c   |   true   |  double |
 | width | Width In Text To Print |   w   |   true   |     int |
 | fps   |   Frames Per Second    |  fps  |  false   |     int |
@@ -33,10 +33,10 @@ your arguments after the initial command.
 provided file has no audio inside it!
 
 ### Example Argument Array 1
-` -f ./path/to/video -c 2.3 -w 110 -fps 60 -audio true`
+` -i ./path/to/video -c 2.3 -w 110 -fps 60 -audio true`
 
 ### Example Argument Array 2
-` --file=./path/to/video --char=2.3 --width=110`
+` --input=./path/to/video --char=2.3 --width=110`
 
 ## Building
 Ascii Video Player uses Gradle to handle dependencies and building! 

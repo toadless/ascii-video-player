@@ -24,7 +24,7 @@ public class AsciiVideoPlayer
     {
         this.logger = LoggerFactory.getLogger(AsciiVideoPlayer.class);
         this.argumentParser = new ArgumentParser(args, new Argument[]{
-                new Argument(true, "file", List.of("file", "f"), ""),
+                new Argument(true, "input", List.of("input", "i"), ""),
                 new Argument(true, "char", List.of("char", "c"), ""),
                 new Argument(true, "width", List.of("width", "w"), ""),
                 new Argument(false, "audio", List.of("audio", "a"), "true"),
