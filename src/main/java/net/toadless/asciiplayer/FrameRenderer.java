@@ -36,6 +36,7 @@ public class FrameRenderer
                 {
                     this.rendering = false;
                     clearScreen(); // clear previous image now finished
+                    return;
                 }
 
                 clearScreen();
