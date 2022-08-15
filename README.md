@@ -1,4 +1,6 @@
 # Ascii Video Player
+[![build](https://github.com/toadless/ascii-video-player/actions/workflows/build.yml/badge.svg)](https://github.com/toadless/ascii-video-player/actions/workflows/build.yml)
+
 Converts a video/gif file into an ascii video and
 streams the product to the console.
 
