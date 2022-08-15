@@ -11,7 +11,13 @@ version '1.0.0'
 
 mainClassName = "net.toadless.asciiplayer.Main"
 
-sourceCompatibility = targetCompatibility = 1.8
+sourceCompatibility = targetCompatibility = JavaVersion.VERSION_18
 
-repositories {}
-dependencies {}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jetbrains:annotations:23.0.0'
+    implementation "ch.qos.logback:logback-classic:1.2.11"
+}
